@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Awesome Boilerplate</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1", charset=utf-8">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="design/index.css">
 </head>
@@ -12,17 +12,27 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<a href="#content">Jump To Content</a><br>
+				<a href="#kittenfooter">Jump To Footer</a><br>
+				<a href="https://media.tenor.co/images/13c2df475c16bdf946b21e5ad88b82f1/raw">Jump To Kitties</a>
 			</p>
 		</div>
 	</header>
 	<main>
-		<section>
+		<section id="content">
 			<article>
-			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
+				<form>
+					<input type="name" placeholder="Vorname" /><br>
+					<input type="name" placeholder="Nachname" /><br>
+					<input type="mail" placeholder="E-Mail" /><br>
+					<input type="date" placeholder="Geburtsdatum" /><br>
+					<select name="Studienfach">
+                		<option>UIB</option>
+                		<option>IB</option>
+               			<option>IMB</option>
+        			</select>
+
+				</form>
 
 			</article>
 
@@ -70,7 +80,7 @@
 		</section>
 	</main>
 	<footer>
-		<img src="img/nodschool.svg"></a>
+		<img id="kittenfooter" src="https://media.tenor.co/images/13c2df475c16bdf946b21e5ad88b82f1/raw"></a>
 	</footer>
 	<script src="design/index.js"></script>
 </body>
